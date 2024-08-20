@@ -186,6 +186,11 @@ i {
   background-color: #121212;
   justify-content: center;
   align-items: center;
+  margin: 20px 0px;
+}
+
+.name-song{
+  padding-bottom: 35px;
 }
 
 #cover img {
