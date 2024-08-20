@@ -106,8 +106,6 @@ i {
 }
 
 #songList {
-  visibility: hidden;
-  display: none;
   background-color: #121212;
   border-radius: 7px;
 

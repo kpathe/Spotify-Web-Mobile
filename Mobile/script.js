@@ -82,6 +82,9 @@ closeNav.addEventListener("click", () => {
   songBanner.style.visibility = "hidden";
   songBanner.style.display = "none";
 
+  songList.style.visibility = "visible"
+  songList.style.display =""
+
   nowPlaying.src = "Assets/Icons/notplaying.svg";
 });
 
