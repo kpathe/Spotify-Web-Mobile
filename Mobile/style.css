@@ -79,9 +79,7 @@ nav a{
   cursor: pointer;
 }
 
-#library img {
-  border-radius: 20%;
-}
+
 
 i {
   margin: 10px 0;
@@ -194,8 +192,8 @@ i {
 }
 
 #cover img {
-  width: 80%;
-  margin: 20px;
+  width: 30%;
+  margin: 10px;
 }
 
 #bannerNav {
