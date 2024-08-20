@@ -32,6 +32,7 @@ let songBanner = document.getElementById("songBanner");
 console.log(songBanner);
 
 let songList = document.getElementById("songList");
+songList.style.display = "none"
 console.log(songList);
 
 let current_time = document.getElementById("current-time");
@@ -54,8 +55,9 @@ nowPlaying.addEventListener("click", () => {
     songBanner.style.visibility = "visible";
     songBanner.style.display = "";
 
-    songList.style.paddingLeft = "0px";
-    songList.style.paddingRight = "0px";
+    songList.style.visibility = "hidden"
+    songList.style.display = "none"
+    
 
     nowPlaying.src = "Assets/Icons/nowplaying.svg";
 
@@ -63,6 +65,9 @@ nowPlaying.addEventListener("click", () => {
   } else {
     songBanner.style.visibility = "hidden";
     songBanner.style.display = "none";
+
+    songList.style.visibility = "visible"
+    songList.style.display = ""
 
     songList.style.marginLeft = "auto";
     songList.style.marginRight = "auto";
