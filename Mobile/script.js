@@ -15,7 +15,7 @@ let repeat = document.getElementById("repeat");
 let progressbar = document.getElementById("progressBar");
 let volumeControl = document.getElementById("volumeControl");
 
-let gif = document.getElementById("gif");
+// let gif = document.getElementById("gif");
 
 let songItems = Array.from(document.getElementsByClassName("songItem"));
 
@@ -188,13 +188,13 @@ songItems.forEach((element, i) => {
 function playSong() {
   audio.play();
   masterPlay.src = "Assets/Icons/pause.svg";
-  gif.style.opacity = 1;
+  // gif.style.opacity = 1;
 }
 
 function pauseSong() {
   audio.pause();
   masterPlay.src = "Assets/Icons/play.svg";
-  gif.style.opacity = 0;
+  // gif.style.opacity = 0;
 }
 
 // handle play/pause
