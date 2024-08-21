@@ -309,6 +309,10 @@ i {
   align-items: center;
 }
 
+#current-time,#song-duration{
+  width: 20px
+}
+
 #volume {
   filter: invert(1) saturate(100%);
   cursor: pointer;
