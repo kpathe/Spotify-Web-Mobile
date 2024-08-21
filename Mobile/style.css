@@ -309,6 +309,13 @@ i {
   align-items: center;
 }
 
+#current-time,#song-duration{
+  width: 20px;
+  margin-left : 20px;
+margin-right : 20px;
+
+}
+
 #volume {
   filter: invert(1) saturate(100%);
   cursor: pointer;
