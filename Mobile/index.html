@@ -17,7 +17,8 @@
         <img src="Assets/logo.png" alt="Spotify"><a href="index.html">Spotify</a>
       </li>
       <li id="home"><a href="index.html">Home</a></li>
-      <li id="about"><a href="../index.html">Web</a></li>
+      <li id="web"><a href="../index.html">Web</a></li>
+
     </ul>
   </nav>
 
@@ -187,7 +188,10 @@
 
         <img id="next" src="Assets/Icons/next.svg" alt="" width="20px" />
 
-        <img id="repeat" src="Assets/Icons/repeatoff.svg" alt="" width="20px" />
+        <img id="repeat" style="visibility: hidden; display: none;" src="Assets/Icons/repeatoff.svg" alt=""
+          width="20px" />
+
+        <img style="cursor: pointer" id="nowPlaying" src="Assets/Icons/nowplaying.svg" alt="" width="20px" />
       </div>
 
       <div class="volume-cover">
@@ -196,7 +200,6 @@
         </div>
 
         <div class="soundcontrol">
-          <img style="cursor: pointer" id="nowPlaying" src="Assets/Icons/nowplaying.svg" alt="" width="20px" />
           <img id="volume" src="Assets/Icons/volume.svg" width="20px" alt="" />
 
           <!-- ye sound ka input hai -->
